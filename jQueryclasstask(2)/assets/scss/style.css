@@ -1,0 +1,30 @@
+.goUp {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: fixed;
+  right: 0;
+  bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-image: url(../../siuuuu.jpeg);
+  background-position: center;
+  background-size: 160%;
+}
+
+.goUp:hover {
+  background-image: url(../../siuu.png);
+  background-position: center;
+  background-size: 160%;
+}
+/*# sourceMappingURL=style.css.map */
